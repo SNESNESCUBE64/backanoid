@@ -36,3 +36,6 @@ the speed at which the game moves.
 Game Controls:
 
 Controlling the game is quite simple. You use the left and right arrow keys to move the paddle back and forth respectively. There is also a few other keys that perform various operation. The "p" key will pause the game, the "q" key will quit out of the program", and the "e" key to end the current game but not the program. There is also a secret code for the title screen to enable a level select involving Konami :). 
+
+Notes:
+This is a raw form of the game Arkanoid, it is missing key features such as items and even the ball changing direction based on where it hits the paddle. That being said, it is not perfect but is still pretty decent for a beginner level project.
