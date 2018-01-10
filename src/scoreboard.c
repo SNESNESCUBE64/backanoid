@@ -49,7 +49,7 @@ void displayLevel(int level)
 	if(level < 10)
 	{
 		sprintf(levelChar, "%d", level);
-		levelChar[2] = 'x';
+		levelChar[1] = 'x';
 	}
 	else//in the range of 10+
 	{
