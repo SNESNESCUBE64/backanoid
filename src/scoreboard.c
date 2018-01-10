@@ -1,7 +1,8 @@
 /*Backanoid!
- * Version 1.0 (FINAL)
+ * Version 1.01 (FINAL)
  * File: scoreboard.c
  * Date: 13 March 2017
+ * Revised: 10 January 2018
  * 
  * Matthew Schalk
  * Jay Siberski
