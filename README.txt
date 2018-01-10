@@ -8,6 +8,8 @@ points and eventually lives also. As soon as you run out of lives, the game ends
 
 Installation:
 
+To install, you will need the curses library. You can add that to your linux terminal by typing the following without the quotation marks:
+"sudo apt-get install libncurses5-dev libncursesw5-dev"
 In the ./Backanoid directory, type "make Backanoid" or "make". This will compile the 
 main.c, set_ticker.c, arrow.c, and scoreboard.c, creating a main.o file. The resulting main.o file will then be compiled with -lcurses tag to enable the lcurses library.
 
@@ -39,3 +41,6 @@ Controlling the game is quite simple. You use the left and right arrow keys to m
 
 Notes:
 This is a raw form of the game Arkanoid, it is missing key features such as items and even the ball changing direction based on where it hits the paddle. That being said, it is not perfect but is still pretty decent for a beginner level project.
+
+Updates:
+1.01: Fixed an issue with scoreboard.c. One of the variables was causing an overflow, it was an oversight in the original version.
